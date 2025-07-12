@@ -1,0 +1,140 @@
+
+
+.merriweather-normal {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*******header style*************/
+header {
+    background-image: url(../images/Banner\ Image.png);
+    height: 600px;
+    max-width: 1320px;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+.banner {
+    align-items: center;
+    padding-top: 250px;
+
+}
+.banner h1{
+    font-size: 72px;
+    font-weight: bolder;
+}
+.banner p{
+    font-size: 32px;
+}
+
+/******** section-one style **********/
+
+.section-one {
+    height: 806px;
+    width: 802px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.section-one-off{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 88px;
+    font-weight: bold;
+    color: red;
+
+}
+.section-one-text{
+    text-align: center;
+}
+
+.section-one-text p{
+    font-size: 24px;
+    font-weight: 500px;
+    color: red;
+    padding-bottom: 20px;
+    
+}
+
+.section-one-text h6{
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.section-one-img {
+    height: 500px;
+}
+
+/* **********section-two style************/
+
+.section-two{
+    max-width: 1320px;
+    margin: 0 auto;
+    background-image: url(../images/Vectorrr.png);
+    height: 600px;
+}
+
+.section-two-welcome{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 1044px;
+   margin: 0 auto;
+}
+
+.section-two-text{
+    padding-top: 40px;
+}
+.section-two-text h3{
+    color: white;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 11%;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.section-two-text p{
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+
+}
+.section-two a{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none; 
+    
+}
+.section-two a:hover{
+    text-decoration: underline 2px solid blue;
+}
+.section-two-button{
+    padding-top: 50px;
+    height: 24px;
+    width: 103px;
+    margin-left: 30px;
+}
+.section-two-img{
+    padding-top: 30px;
+}
